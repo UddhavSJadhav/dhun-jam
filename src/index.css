@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .appearance-unset {
+    appearance: textfield;
+  }
+  .appearance-unset::-webkit-outer-spin-button,
+  .appearance-unset::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #030303;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-size: 16px;
+}
